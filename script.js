@@ -13,9 +13,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
   var typed = new Typed(".heading_span", {
     strings: [
-      "Hi, I'm Anurag",
+      "Hi, I'm Ashutosh",
       "Developer",
-      "Hi, I'm Anurag"
+      "Hi, I'm Ashutosh"
     ],
     typeSpeed: 120,
     backSpeed: 120,
