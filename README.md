@@ -1,20 +1,19 @@
 # FRT_PROJECT
 
-# FRTPROJECT
 PORTFOLIO
 
 This is my FRT Internship Project...
 
-Azure Link : https://myfrtproject.z29.web.core.windows.net/
+Azure Link : https://myproject01.z19.web.core.windows.net/
 
-GitHub Repository Url :https://github.com/anuragsingh010/FRTPROJECT.git
+GitHub Repository Url : https://github.com/ashut123/FRT_PROJECT.git
 
-Demo Video Url:https://youtu.be/P9qxj3hLaGg
+Demo Video Url: https://youtu.be/fpPblpxgH9c
 
-Url GitHub:https://anuragsingh010.github.io/FRTPROJECT/
+Url GitHub::https://ashut123.github.io/FRT_PROJECT/
 
 
-overview: Screenshot (86) (1)_merged (1).pdf
+
 
 
 PROJECT STATEMENT : The objective of portfolio management is to create and maintain a personalized plan for investing over the long term in order to meet an individual's key financial goals. This means selecting a mix of investments that matches the person's responsibilities, objectives, and appetite for risk.
