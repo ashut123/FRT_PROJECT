@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.35;
+    background-color: #fcf7f7;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    box-sizing: border-box;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /*global*/
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  /*Header*/
+  
+  header {
+    background: url("img/mac.jpg") no-repeat -150px -50px;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 75px;
+  }
+  header h1 {
+    margin-top: 5px;
+  }
+  header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 25px;
+  }
+  header a:hover {
+    font-weight: 550;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 8%;
+    margin: 0 14.2px;
+  }
+  header li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 0 5px;
+  }
+  header #heading {
+    float: left;
+  }
+  header #heading h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 13px;
+  }
+  
+  /*Showcase*/
+  
+  #showcase {
+    color: #ffffff;
+    background: url("img/mac.jpg") no-repeat -150px -185px;
+    text-align: center;
+    min-height: 600px;
+  }
+  #showcase h1 {
+    margin-top: 210px;
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+  #showcase p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /*skills*/
+  
+  #skills {
+    margin-top: 25px;
+  }
+  #skills h2 {
+    font-size: 45px;
+    font-weight: 350;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #skills .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    text-align: center;
+  }
+  #skills p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px;
+  }
+  #skills .box_img {
+    height: 150px;
+    width: 150px;
+  }
+  
+  /*About*/
+  
+  #about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    min-height: 350px;
+  }
+  #about h2 {
+    font-size: 45px;
+    font-weight: 350;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  #about p {
+    padding: 18px 90px;
+    font-size: 20px;
+  }
+  /*Contact*/
+  
+  #contact h2 {
+    font-size: 45px;
+    font-weight: 350;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  #contact .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: auto;
+  }
+  #form {
+    border: 5px solid lightgrey;
+    border-radius: 10px;
+    padding: 2rem;
+    height: 350px;
+  }
+  label {
+    display: block;
+    padding: 0.5rem 0;
+  }
+  input,
+  textarea {
+    display: block;
+    border: 2px solid #ffe3e1;
+    border-radius: 5px;
+    width: 94%;
+    padding: 0.25rem;
+    font-size: 16px;
+    resize: none;
+  }
+  #input-submit {
+    border: 0;
+    background: #706ee6;
+    padding: 0.5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    cursor: pointer;
+  }
+  #input-submit:hover {
+    background: #2396e4;
+  }
+  
+  #map {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+  
+  /*Footer*/
+  footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #020000;
+    text-align: center;
+  }
+  
+  /*Media Queries*/
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    #about p {
+      padding: 18px 70px;
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 767px) {
+    header #heading,
+    header nav,
+    header nav li {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+    header li{
+      padding: 0 120px;
+    }
+    header nav {
+      margin-top: 35px;
+      margin-bottom: 10px;
+    }
+    header nav a{
+      margin: 14.2px;
+    }
+    header {
+      background: url("img/mac.jpg") no-repeat -250px -300px;
+    }
+    #showcase {
+      background: url("img/mac.jpg") no-repeat -400px -400px;
+    }
+    #skills .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    #about p {
+      padding: 10px;
+      font-size: 18px;
+    }
+    #contact .container {
+      display: block;
+    }
+    #map {
+      height: 400px;
+    }
+    #form {
+      padding-left:10%;
+      padding-right:10%;
+    }
+  }
+  @media (max-width: 379px) {
+    header nav a{
+      margin: 50.2px;
+    }
+    header li{
+      padding: 0 8px;
+    }
+  }
+  @media (max-width: 400px) {
+    header li{
+      padding: 0 40px;
+    }
+  }
+  

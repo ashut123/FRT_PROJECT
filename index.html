@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/css.png" />
+    <script defer src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Anurag Singh</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">s
+        <div id="heading">
+          <h1>Anurag Singh</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1><span class="heading_span"></span></h1>
+        <p>Thanks for checking out my portfolio!</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 id="skills_heading">Skills</h2>
+      <div class="container">
+        <div class="box">
+          <img src="img/html.png" class="box_img" alt="" />
+          <h3>HTML</h3>
+          <p>
+            The HyperText Markup Language or HTML is the standard markup
+            language for documents designed to be displayed in a web browser.
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/css.png" class="box_img" alt="" />
+          <h3>CSS</h3>
+          <p>
+            Cascading Style Sheets is a style sheet language used for describing
+            the presentation of a document written in a markup language such as
+            HTML or XML.
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/js.png" class="box_img" alt="" />
+          <h3>JS</h3>
+          <p>
+            JavaScript, often abbreviated to JS, is a programming language that
+            is one of the core technologies of the World Wide Web, alongside
+            HTML and CSS.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        Hey there! I'm Anurag Singh, a Developer, specializing on
+        JavaScript. I have some work experience from a few internships and
+        completed some projects. I like to collaborate on projects and learn
+        more about programming languages. I have completed five-courses,
+        developed by Google, that include hands-on, practice-based assessments
+        and are designed to prepare them for entry-level roles in IT support.
+        They are competent in foundational skills, including troubleshooting and
+        customer service, networking, operating systems, system administration,
+        and security.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="container">
+        <div id="form">
+          <form
+            name="gform"
+            id="gform"
+            enctype="text/plain"
+            action="https://docs.google.com/forms/d/e/1FAIpQLScLacebewpnyM9g02R0xWhqxXER5kIFycQl3nJF6Y1ifi8cLQ/formResponse?usp=pp_url"
+            target="hidden_iframe"
+            onsubmit="submitted=true;"
+          >
+            <label for="fname">First Name:</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+              required
+            />
+            <label for="lname">Last Name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email id.."
+              required
+            />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <input type="submit" value="Submit" id="input-submit" />
+          </form>
+        </div>
+        <div id="frame">
+          <iframe id = "map" src='https://webchat.botframework.com/embed/chatbot-tirtha-bot?s=Z1fZtinZruo.sC_pLhk1AlQbWgazY-hv-dw4Iku11rCNBJt9RcqkRQ0'></iframe></div>
+      </div>
+    </section>
+
+    <footer id="footer" role="contentinfo">
+      <p>Handcrafted by me &nbsp; &copy; &nbsp;Copyright 2023</p>
+    </footer>
+  </body>
+</html>
